@@ -1,0 +1,227 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt Koala</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/be49515cac.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section id="title">
+    <div>
+            <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #A6BB8D;">
+        <div class="container-fluid">
+            <img class="koala" src="/Fotók/koala.png" alt="">
+          <a class="navbar-brand" href="#">Receipt Koala</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Egyéni</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Vállakozás</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Csomagok</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Kapcsolat</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Mit keresel?" aria-label="Search">
+              <button class="btn btn-success" type="submit">Keresés</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+
+
+
+    <!-- NAV Bar -->
+
+    <!-- Title -->
+    <div class="row">
+        <div class="col-lg-6">
+            <h1 class="Cím"> Üdv, a Receipt Koala oldalán</h1>
+            <button id="btn" type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Letöltés</button>
+            <button id="btn" type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Letöltés</button>
+        </div>    
+        
+        <div class="position col-lg-6 col-md-12 col-sm-12">
+            <img class="app" src="./Fotók/Kicsi/TelefonApp.png" alt="applikáció">
+        </div>
+    </div>
+    
+    </div>
+    </section>
+
+    <!-- Features -->
+
+    <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+        <div class="row" id="features-test">
+            <div class="feature-box col-lg-4">
+                <img class="photo" src="/Fotók/Kicsi/ecofriendly.jpg" alt="ECO">
+                <h2>ECO-Friendly</h2>
+                <p> Több ezer tonna papírt és fát spórolunk</p>
+            </div>
+
+            <div class="feature-box col-lg-4">
+                <img class="photo" src="Fotók/Kicsi/fogyasztó.jpg" alt="Fogyasztó">
+                <h2>Fogyasztó barát</h2>
+                <p>Megkönnyíti a vásárló mindennapos életét</p>
+            </div>
+
+            <div class="feature-box col-lg-4">
+                <img class="photo" src="Fotók/Kicsi/fogyasztó barát.jpg" alt="Praktikus">
+                <h2>Praktikus</h2>
+                <p>Könnyen kezelhető, gyors, hasznos</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+        <!-- Features -->
+
+
+    <!-- Testimonials -->
+
+    <section class="colored-section" id="testimonials">
+
+      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel true" data-bs-interval="5000" data-bs-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active cont-fluid">
+            <h2 class="testimonial-text">A Receipt Koala segít megspórolni egy vagyont éves szinten</h2>
+            <img class="testimonial-image" src="Fotók/Kicsi/női arc.jpg" alt="Női arc" />
+            <em>Alíz, Győr, Győr-Moson-Sopron</em>
+          </div>
+          <div class="carousel-item cont-fluid">
+            <h2 class="testimonial-text">Nagyban megkönnyíti az életünk, hogy nem kell gyűjtenünk a nyugtákat</h2>
+            <img class="testimonial-image" src="Fotók/Kicsi/férfi arc.jpg" alt="férfi arc">
+            <em>Bence, Magyarország, Budapest</em>
+          </div>
+  
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Elöző</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Következő</span>
+        </button>
+      </div>
+      
+    </section>
+     <!-- Testimonials -->
+
+
+     <!-- Working -->
+
+     <section class="white-section" id="features">
+      
+      <div class="work-photo">
+        <img class="payment" src="/Fotók/Mobil payment no háttér.png" alt="">
+      </div>
+      <div class="container-fluid">
+       
+        <div class="row" id="works">
+          
+          <div class="feature-box muxik col-lg-4">
+              <i class="icon fa-solid fa-download fa-4x"></i>
+              <h3 id="h2">Töltsd le</h3>
+              <p>Letöltés után hozz létre egy fiókot</p>
+          </div>
+          <div class="feature-box muxik col-lg-4">
+              <i class="icon fa-solid fa-qrcode fa-4x"></i>
+              <h3 id="h2">NFC/Vonalkód</h3>
+              <p>Fizetéskor azonosítsd a fiókod az NFC kód segítségével</p>
+          </div>
+    
+          <div class="feature-box muxik col-lg-4">
+              <i class="icon fa-solid fa-robot fa-4x"></i>
+              <h3 id="h2">Automatizált rendszer</h3>
+              <p>A vásárlásról kiállított számlát automatikusan megkapod a telefonodra</p>
+          </div>
+        </div>
+          
+      </div>
+          
+      </section>
+
+
+
+     <!-- <section id="working">
+   
+      <div class="container-fluid">
+        <div>
+          <img class="payment" src="/Fotók/Mobil payment no háttér.png" alt="">
+        </div>
+
+        <div id="work">
+          <div class="process col-lg-12">
+            <h2 id="h2">Töltsd le</h2>
+            <p>Letöltés után hozz létre egy fiókot</p>
+          </div>
+
+          <div class="process col-lg-12">
+            <h2 id="h2">NFC/Vonalkód</h2>
+            <p>Fizetéskor azonosítsd a fiókod az NFC kód segítségével</p>
+          </div>
+
+          <div class="process col-lg-12">
+            <h2 id="h2">Automatizált rendszer</h2>
+            <p>A vásárlásról kiállított számlát automatikusan megkapod a telefonodra</p>
+          </div>
+        </div>
+      </div>
+
+     </section> -->
+
+     <!-- Working -->
+
+     <!-- CLients logos -->
+
+     <section id="clients">
+      <h1 class="partner">Partnerek</h1>
+      <img class="clients" src="/Fotók/HM.png" alt="HM">
+      <img class="clients" src="/Fotók/MOL.png" alt="Mol">
+      <img class="clients" src="Fotók/Lidl.png" alt="Lidl">
+      <img class="clients" src="Fotók/Walmart.png" alt="Walmart">
+      <p class="stb">és még sokan mások</p>
+
+     </section>
+      <!-- CLients logos -->
+
+
+
+    <!-- JavaScript Bundle with Popper Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+
+
+
+
+</html>
